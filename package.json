@@ -1,0 +1,15 @@
+{
+  "name": "ChromeExtensionDarkPattern",
+  "version": "1.0.0",
+  "devDependencies": {
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "clang-format": "^1.2.3",
+    "parcel-bundler": "^1.7.1"
+  },
+  "type": "module",
+  "dependencies": {
+    "@tensorflow/tfjs": "^0.9.1"
+  }
+}

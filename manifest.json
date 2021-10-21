@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "Dark Pattern",
+  "version": "0.1.0",
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "js": [
+      "js/block_segment.js",
+      "js/common.js",
+      "js/content.js"
+    ],
+    "run_at": "document_end"
+  }],
+  "permissions": [
+    "webRequest",
+    "*://*/*",
+    "activeTab",
+    "tabs",
+    "storage"
+  ],
+  "content_security_policy": "script-src 'self' https://cdn.jsdelivr.net/npm/@tensorflow/tfjs/dist/tf.min.js 'unsafe-eval'; object-src 'self'"
+}
