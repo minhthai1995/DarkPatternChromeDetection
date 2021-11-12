@@ -19,5 +19,6 @@ When entering an e-commerce website, click the extension icon and select "Analyz
 
 ## Credits
 Thanks to the work of Mathur et al. and Tung et al., we have a full dataset to develop classification models to detect dark patterns as well as their categories.
+Especially, we cannot complete this project without the page segmentation developed by Mathur et al.
 
 ## License
